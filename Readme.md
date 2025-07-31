@@ -26,7 +26,7 @@ Sentiment_Analyzer/
 └── README.md             # Documentation
 ```
 
-> ✅ No `templates/` or `static/` folders needed — HTML and CSS are directly managed.
+> ✅  `templates/` or `static/` folders needed.
 
 ---
 
@@ -92,17 +92,3 @@ If deploying online (e.g. Heroku, Render, etc):
 
 3. Make sure the first model load doesn't timeout (can cache locally if needed).
 
----
-
-## 📸 Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![screenshot](./preview-desktop.png) | ![screenshot](./preview-mobile.png) |
-
----
-
-## 📄 License
-
-MIT © 2025 YourName  
-Feel free to modify and share!
