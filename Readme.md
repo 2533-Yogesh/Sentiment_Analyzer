@@ -26,7 +26,7 @@ Sentiment_Analyzer/
 └── README.md             # Documentation
 ```
 
-> ✅  `templates/` or `static/` folders needed.
+> ✅ No `templates/` or `static/` folders needed — HTML and CSS are directly managed.
 
 ---
 
@@ -72,9 +72,6 @@ Run your app locally:
 python app.py
 ```
 
-Then visit:  
-[http://127.0.0.1:5000](http://127.0.0.1:5000)
-
 ---
 
 ## 🌐 Deployment Notes
@@ -91,4 +88,5 @@ If deploying online (e.g. Heroku, Render, etc):
    - `runtime.txt` (e.g., `python-3.10.11`)
 
 3. Make sure the first model load doesn't timeout (can cache locally if needed).
+
 
