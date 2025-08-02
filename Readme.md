@@ -74,19 +74,8 @@ python app.py
 
 ---
 
-## 🌐 Deployment Notes
+## 🌐 Deployed Project Link
+https://huggingface.co/spaces/Prst-Yogesh/MoodScopeIQ
 
-If deploying online (e.g. Heroku, Render, etc):
-
-1. Add a `requirements.txt`:
-   ```bash
-   pip freeze > requirements.txt
-   ```
-
-2. Optionally add:
-   - `Procfile`
-   - `runtime.txt` (e.g., `python-3.10.11`)
-
-3. Make sure the first model load doesn't timeout (can cache locally if needed).
 
 
